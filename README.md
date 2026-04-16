@@ -15,8 +15,13 @@ To get the most out of your props and enhance their visual quality and behavior,
 
 - **Unity Editor**: `2022.3.62f2` (or a compatible 2022.3 LTS version).
 
-## Installation & Getting Started
+## Quick Install (Standalone Package)
 
+If you already have an existing Unity project and don't want to download this entire application, you can simply download and import the provided `.unitypackage`. This package contains the necessary stub scripts needed to configure and export props directly from your own project.
+
+## Full Project Installation
+
+If you prefer to use the full included environment:
 1. **Download the project**: Clone this repository using Git or download it as a ZIP file and extract it.
 2. **Add to Unity Hub**: Open Unity Hub, click on "Add", and select the `VrmFrontViewPropMaker` folder.
 3. **Launch**: Open the project using Unity `2022.3.62f2`. The first launch may take a few minutes while Unity imports assets.
