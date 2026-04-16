@@ -1,7 +1,7 @@
 # TargetBone
 
 ## Overview
-`targetBone` is a simple constraint configurator used to map and attach an object to one of an avatar's limbs using a Unity `PositionConstraint`. It relies on EVMC4U's `ExternalReceiver` to identify the active avatar.
+`targetBone` is a simple constraint configurator used to map and attach an object to one of an avatar's limbs using a Unity `PositionConstraint`.
 
 ## How to use
 1. Attach `targetBone` to the GameObject you wish to constrain. 
