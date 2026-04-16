@@ -1,6 +1,18 @@
 Assets/Cafeplays.meta
 Assets/Cafeplays/*
 
+Assets/MagicaCloth2/*
+Assets/MagicaCloth2.meta
+
+Assets/_PoiyomiShaders/*
+Assets/_PoiyomiShaders.meta
+
+Thry/
+Thry.meta
+
+Packages/lilToonSetting.json
+Packages/com.llealloo.audiolink
+
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
