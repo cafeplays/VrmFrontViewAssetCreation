@@ -55,7 +55,7 @@ public class BundleExportPanel : EditorWindow
         EditorGUILayout.Space();
         EditorGUILayout.HelpBox(
             ".backdrop files: Internal key 'stageprop'\n" +
-            ".vavatar files: Internal key 'avatar' (Requires VRM)", 
+            ".vavatar files: Internal key 'avatar'", 
             MessageType.Info
         );
     }
@@ -100,7 +100,13 @@ public class BundleExportPanel : EditorWindow
 
             if (!hasVRM)
             {
-                EditorUtility.DisplayDialog("Invalid Avatar", "No VRM/Vrm component found in hierarchy.", "OK");
+                EditorUtility.DisplayDialog("Warning", "No VRM/Vrm component found in hierarchy. BlendShapes will not work", "OK");
+            }
+
+            // throw error if its not humanoid
+            if (!targetPrefab.GetComponent<Animator>().isHuman)
+            {
+                EditorUtility.DisplayDialog("Error", "The assigned object is not a humanoid avatar.", "OK");
                 return;
             }
         }

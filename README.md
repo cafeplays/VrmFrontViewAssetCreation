@@ -19,6 +19,8 @@ To get the most out of your props and enhance their visual quality and behavior,
 
 If you already have an existing Unity project and don't want to download this entire application, you can simply download and import the provided `.unitypackage`. This package contains the necessary stub scripts needed to configure and export props directly from your own project.
 
+Get it here: [VrmFrontViewAssetCreation](https://github.com/cafeplays/VrmFrontViewAssetCreation/releases/tag/1.0)
+
 ## Full Project Installation
 
 If you prefer to use the full included environment:
