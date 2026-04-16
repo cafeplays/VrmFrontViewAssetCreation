@@ -16,3 +16,8 @@ To get the most out of your props and enhance their visual quality and behavior,
 1. Open this project in Unity.
 2. If you choose to use the recommended assets above, import their respective `.unitypackage` files or add them via the Unity Package Manager.
 3. Start creating and configuring your props!
+
+## Credits
+
+- **Alice Solid VRM**
+- **UniVRM**
