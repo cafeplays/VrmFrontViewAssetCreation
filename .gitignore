@@ -10,8 +10,12 @@ Assets/_PoiyomiShaders.meta
 Thry/
 Thry.meta
 
-Packages/lilToonSetting.json
+ProjectSettings/lilToonSetting.json
 Packages/com.llealloo.audiolink
+
+Assets/lilToon/*
+Assets/lilToon.meta
+Packages/jp.lilxyzw.liltoon/
 
 # This .gitignore file should be placed at the root of your Unity project directory
 #
